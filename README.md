@@ -12,29 +12,49 @@ The project consists of three major phases:
 ## 📂 **Project Structure**  
 
 📦 Sentiment-Analysis-Anglophone-Crisis
+
 ┣ 📂 CleanData # Cleaned datasets
+
 ┃ ┣ 📜 CleanFacebookData.csv
+
 ┃ ┣ 📜 CleanTweeterData.csv
+
 ┃ ┗ 📜 AnglophoneCrisisAnalysis.ipynb
+
 ┣ 📂 DataScrapping # Data collection scripts and raw data
+
 ┃ ┣ 📜 FB_angl.csv
+
 ┃ ┣ 📜 twitter_anglophone_crises_data.csv
+
 ┃ ┣ 📜 bing.ipynb
+
 ┃ ┣ 📜 google.ipynb
+
 ┃ ┣ 📜 twitter.ipynb
+
 ┃ ┣ 📜 web1.py
+
 ┃ ┣ 📜 web2.py
+
 ┃ ┗ 📜 news.py
+
 ┣ 📂 FullData # Combined datasets and additional experiments
+
 ┃ ┣ 📂 ModelBuilding
+
 ┃ ┃ ┣ 📜 AnglophoneCrisis.ipynb
+
 ┃ ┃ ┣ 📜 Model Testing.ipynb
+
 ┃ ┃ ┣ 📜 ModelTest.ipynb
+
 ┃ ┃ ┗ 📜 TestingModel1.ipynb
-┃ ┣ 📜 bing.ipynb
-┃ ┣ 📜 google.ipynb
-┃ ┣ 📜 twitter.ipynb
+
 ┃ ┗ 📜 NLPModel.ows
+
 ┣ 📜 .gitignore
+
 ┣ 📜 README.md
-┗ 📜 requirements.txt
+
+
